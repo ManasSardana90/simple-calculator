@@ -1,70 +1,49 @@
-# Getting Started with Create React App
+# Simple Calculator
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a simple calculator application built with React for educational purposes. The application allows users to perform basic arithmetic operations.
 
-## Available Scripts
+## Instructions
 
-In the project directory, you can run:
+Follow these steps to set up and run the application:
 
-### `npm start`
+### 1. Clone the Repository
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+```bash
+git clone https://github.com/your-username/simple-calculator.git
+cd simple-calculator
+```
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### 2. Install Dependencies
 
-### `npm test`
+```bash
+npm install
+```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### 3. Run the Application
 
-### `npm run build`
+```bash
+npm start
+```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### 4. Implement the Calculator
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Open `src/Calculator.js` to implement the following functions:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- **handleDigitClick**: This function should append the clicked digit to the `display` state.
+- **handleOperationClick**: This function should append the clicked operation (e.g., +, -, *, /) to the `display` state.
+- **calculateResult**: This function should evaluate the expression in the `display` state and set the `result` state.
 
-### `npm run eject`
+## Code Explanation
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- `Calculator.js`: Contains the main logic for the calculator.
+- `App.js`: The root component that renders the `Calculator` component.
+- `index.js`: The entry point of the React application.
+- `index.html`: The HTML template for the React application.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Feel free to explore and modify the code to enhance the calculator's functionality.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Useful VS Code Extensions
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- **ESLint**: Integrates ESLint into VS Code for JavaScript and JSX linting.
+- **Prettier - Code formatter**: An opinionated code formatter for consistent code style.
+- **Bracket Pair Colorizer**: A customizable extension for colorizing matching brackets.
