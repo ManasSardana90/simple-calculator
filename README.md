@@ -41,9 +41,3 @@ Open `src/Calculator.js` to implement the following functions:
 - `index.html`: The HTML template for the React application.
 
 Feel free to explore and modify the code to enhance the calculator's functionality.
-
-## Useful VS Code Extensions
-
-- **ESLint**: Integrates ESLint into VS Code for JavaScript and JSX linting.
-- **Prettier - Code formatter**: An opinionated code formatter for consistent code style.
-- **Bracket Pair Colorizer**: A customizable extension for colorizing matching brackets.
